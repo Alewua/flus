@@ -140,3 +140,15 @@
   justify-content: center;
   align-items: center;
 }
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: greenyellow;
+}

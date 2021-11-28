@@ -1,10 +1,13 @@
 {
   "name": "flus",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "CSS Framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "flus": "../cli/cli.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,9 @@
   },
   "homepage": "https://github.com/Alewua/flus#readme",
   "dependencies": {
-    "flus": "^0.0.1"
+    "chalk": "^5.0.0",
+    "flus": "^0.0.1",
+    "inquirer": "^8.2.0",
+    "log-symbols": "^5.0.0"
   }
 }
