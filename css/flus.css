@@ -1,19 +1,106 @@
 .text-white {
-    color: white;
+  color: white;
 }
 
-.font-bold {
-    font-weight: 800;
+.font-sans {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .text-blue {
-    color: turquoise;
+  color: blue;
 }
 
 .text-purple {
-    color: violet;
+  color: purple;
 }
 
 .text-black {
-    color: black;
+  color: black;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.op-1 {
+  opacity: 1;
+}
+
+.op-0-9 {
+  opacity: 0.9;
+}
+
+.op-0-8 {
+  opacity: 0.8;
+}
+
+.op-0-7 {
+  opacity: 0.7;
+}
+
+.op-0-6 {
+  opacity: 0.6;
+}
+
+.op-0-5 {
+  opacity: 0.5;
+}
+
+.op-0-4 {
+  opacity: 0.4;
+}
+
+.op-0-3 {
+  opacity: 0.3;
+}
+
+.op-0-2 {
+  opacity: 0.2;
+}
+
+.op-0-1 {
+  opacity: 0.1;
+}
+
+.rounded {
+  border-radius: 25px;
+}
+
+.elegant {
+  border-radius: 15px 50px 30px;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px #000000;
 }

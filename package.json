@@ -1,7 +1,7 @@
 {
   "name": "flus",
-  "version": "0.0.1",
-  "description": "CSS Frame work",
+  "version": "0.0.7",
+  "description": "CSS Framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Alewua/flus/issues"
   },
-  "homepage": "https://github.com/Alewua/flus#readme"
+  "homepage": "https://github.com/Alewua/flus#readme",
+  "dependencies": {
+    "flus": "^0.0.1"
+  }
 }
