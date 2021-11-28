@@ -7,7 +7,7 @@ const exist = fs.existsSync;
 
 if (exist(res("flus.css")))
 return console.log(
-  chalk.red(`${symbols.error} Please delete the "flus.css" file`)
+  chalk.red(`Please delete the "flus.css" file`)
 );
 
   fs.readFile(
