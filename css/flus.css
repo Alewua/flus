@@ -104,3 +104,39 @@
 .text-shadow {
   text-shadow: 2px 2px 4px #000000;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.perfect-center {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
